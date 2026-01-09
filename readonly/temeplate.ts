@@ -1,3 +1,5 @@
 type MyReadonly<T> = {
-    readonly [p in keyof T]:T[p]
+    readonly [P in keyof T]: T[P];
 }
+
+// 类型声明时可以指定只读
