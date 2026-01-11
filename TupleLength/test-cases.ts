@@ -11,3 +11,5 @@ type cases = [
   // @ts-expect-error
   Length<'hello world'>,
 ]
+
+type a = typeof tesla
