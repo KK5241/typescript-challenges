@@ -21,3 +21,8 @@ type error = TupleToObject<[[1, 2], {}]>
 type a = {
   [p in typeof tupleMix[number]]: p;
 }
+
+
+type array = ['123', 456, [123,2], {a: '123'}]
+
+type v = array[number]
